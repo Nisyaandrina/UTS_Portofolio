@@ -1,0 +1,146 @@
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e6f0ff, #fce4ec);
+  color: #333;
+}
+
+.navbar {
+  background-color: #800000;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  background: linear-gradient(to right, #e6f0ff, #fce4ec);
+  color: #800000;
+  border-radius: 8px;
+  padding: 4px 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.section {
+  padding: 50px 20px;
+}
+
+.section h2 {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 36px;
+  color: #800000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(128, 0, 0, 0.3);
+}
+
+.profil-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px white, 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.portfolio-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio-list li {
+  background-color: white;
+  border-left: 5px solid #800000;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.portfolio-list h5 {
+  margin-bottom: 5px;
+  color: #800000;
+}
+
+.portfolio-list p {
+  margin: 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-pink {
+  background-color: #fcdde0;
+  color: #800000;
+}
+
+.btn-secondary {
+  background-color: #d3c0cd;
+  color: #333;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-icon:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+footer {
+  background-color: #800000;
+  padding: 10px;
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.text-center {
+  text-align: center;
+}
